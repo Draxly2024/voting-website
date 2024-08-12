@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vote for A or B</h1>
+    </header>
+
+    <main>
+        <section id="ads">
+            <!-- Ad space -->
+            <div class="ad">Ad Space 1</div>
+            <div class="ad">Ad Space 2</div>
+            <div class="ad">Ad Space 3</div>
+        </section>
+
+        <section id="voting">
+            <h2>Make Your Vote</h2>
+            <button id="voteA">Vote A</button>
+            <button id="voteB">Vote B</button>
+        </section>
+
+        <section id="results">
+            <h2>Live Results</h2>
+            <canvas id="voteChart"></canvas>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
